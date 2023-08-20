@@ -71,7 +71,7 @@ function App() {
         <Board squares={current.squares} onClick={(i) => handleClick(i)} />
       </div>
       <div className="game-info">
-        <div>{status}</div>
+        <div className="status">{status}</div>
         <ol style={{ listStyle: "none" }}>{moves}</ol>
       </div>
     </div>
